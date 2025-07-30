@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to bottom, #191cd6, #f772a1);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  height: 40px;
+  width: auto;
+}
+
+.logo span {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 25px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding-right: 25px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+nav a.active,
+nav a:hover {
+  color: #ff4e94;
+}
+
+/* About container */
+.about-container {
+  display: flex;
+  max-width: 1000px;
+  margin: 60px auto;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Photo side (left) */
+.image-side {
+  flex: 1;
+  min-width: 300px;
+}
+
+.image-side img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Text side (right) */
+.text-side {
+  flex: 1.5;
+  padding: 40px;
+}
+
+.text-side h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.text-side h3 {
+  font-size: 16px;
+  color: #ff4e94;
+  margin-bottom: 20px;
+}
+
+.text-side p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* Socials */
+.socials a {
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 15px;
+  color: #444;
+  transition: color 0.3s;
+}
+
+.socials a:hover {
+  color: #ff4e94;
+}
