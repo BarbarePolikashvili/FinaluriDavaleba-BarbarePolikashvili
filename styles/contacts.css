@@ -4,9 +4,10 @@
   box-sizing: border-box;
 }
 
-body, html {
+body,
+html {
   height: 100%;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 header {
   display: flex;
@@ -55,21 +56,19 @@ nav a:hover {
   color: #ff4e94;
 }
 
-
 .contact-section {
-   background: linear-gradient(to bottom, #191cd6, #c022df);
+  background: linear-gradient(to bottom, #191cd6, #c022df);
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-
 .contact-box {
   display: flex;
   background-color: white;
   border-radius: 16px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   padding: 40px;
   max-width: 900px;
   width: 90%;

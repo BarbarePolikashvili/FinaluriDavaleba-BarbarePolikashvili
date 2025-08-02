@@ -61,3 +61,36 @@ nav a.active,
 nav a:hover {
   color: #ff4e94;
 }
+.blog-container {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  padding: 40px;
+  max-width: 900px;
+  margin-top: 120px;
+  margin-bottom: 40px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post {
+  margin-bottom: 40px;
+}
+
+.blog-post h2 {
+  font-size: 24px;
+  color: #191cd6;
+  margin-bottom: 10px;
+}
+
+.blog-post p {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.7;
+}
+
+code {
+  background-color: #eee;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: monospace;
+  color: #ff4e94;
+}
