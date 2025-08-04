@@ -148,7 +148,6 @@ nav a:hover {
   transform: scale(1.2);
 }
 .burger-menu {
-  align-items: right;
   width: 25px;
   height: 25px;
   display: none;

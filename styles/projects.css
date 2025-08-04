@@ -118,7 +118,6 @@ main {
   transform: scale(1.05);
 }
 .burger-menu {
-  align-items: right;
   width: 25px;
   height: 25px;
   display: none;
